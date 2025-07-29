@@ -2,6 +2,8 @@ Store API TDD (FastAPI + MongoDB)
 Este projeto implementa uma API RESTful para gerenciamento de produtos em uma loja, seguindo uma abordagem de Desenvolvimento Orientado a Testes (TDD). A API permite operações CRUD (Criar, Ler, Atualizar, Deletar) para produtos, além de funcionalidades de busca por faixa de preço.
 
 🚀 Funcionalidades
+A API oferece as seguintes funcionalidades principais para o gerenciamento de produtos:
+
 Criação de Produtos: Adiciona novos produtos ao estoque.
 
 Listagem de Produtos: Retorna todos os produtos cadastrados.
@@ -15,11 +17,13 @@ Deleção de Produtos: Remove produtos do estoque.
 Busca por Faixa de Preço: Filtra produtos com base em um intervalo de preços.
 
 🛠️ Tecnologias Utilizadas
+As principais tecnologias e ferramentas utilizadas neste projeto incluem:
+
 Python 3.12+
 
 FastAPI: Framework web moderno e rápido para construir APIs com Python.
 
-Pydantic: Para validação de dados e serialização/deserialização de modelos.
+Pydantic: Para validação de dados e serialização/desserialização de modelos.
 
 Motor: Driver MongoDB assíncrono para Python.
 
@@ -79,8 +83,8 @@ Docker Desktop
 Instalação e Execução
 Clone o repositório:
 
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
-cd SEU_REPOSITORIO # Substitua pelo nome do seu repositório
+git clone https://github.com/ZyonCruz/store_api_tdd.git
+cd store_api_tdd # Navegue para o diretório do projeto
 
 Crie o arquivo de variáveis de ambiente .env:
 No diretório raiz do projeto, crie um arquivo chamado .env e adicione as seguintes variáveis, substituindo os valores pelos que você deseja usar para o seu banco de dados MongoDB:
@@ -147,4 +151,18 @@ Inconsistências na instalação do Docker.
 Este problema é de ambiente/infraestrutura e não um erro no código da aplicação. Assegure-se de que o Docker está funcionando corretamente e que não há conflitos de porta.
 
 🤝 Contribuindo
-Contribuições são bem-vindas! Se você encontrar um bug ou tiver uma ideia para uma nova funcionalidade, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Contribuições são sempre bem-vindas! Se você tiver sugestões, encontrar bugs ou quiser adicionar novas funcionalidades, sinta-se à vontade para:
+
+Abrir uma Issue para relatar um problema ou sugerir uma melhoria.
+
+Fazer um "Fork" do repositório.
+
+Criar uma nova "Branch" para suas alterações (git checkout -b feature/sua-feature).
+
+Realizar suas mudanças e testá-las.
+
+Fazer um "Commit" das suas alterações (git commit -m 'feat: Adiciona nova funcionalidade X').
+
+Fazer um "Push" para a sua branch (git push origin feature/sua-feature).
+
+Abrir um "Pull Request" para o repositório original.
